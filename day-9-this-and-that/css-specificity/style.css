@@ -1,0 +1,17 @@
+#my-div {
+    color: blue;
+    text-decoration: underline;
+}
+
+.my-h1.whatever {
+    color: orange;
+}
+
+h1 {
+    color: green;
+}
+
+* {
+    color: red;
+}
+

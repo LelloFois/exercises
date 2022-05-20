@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="red" style="height: 100px; width: 100px; background-color: red;">
+        <div id="blue" style="height: 80px; width: 80px; background-color: blue;">
+            <div id="green" style="height: 60px; width: 60px; background-color: green;">
+        
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const handleClick = (e) => {
+            e.stopPropagation()
+            console.log(e.target.style)
+        }
+
+        document.querySelector('#blue').addEventListener('click', handleClick)
+        document.querySelector('#green').addEventListener('click', handleClick)
+    </script>
+</body>
+</html>

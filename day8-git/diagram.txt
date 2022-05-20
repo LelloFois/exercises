@@ -1,8 +1,14 @@
 Local:
-                                   o
+                                   o merge with conflicts, main
                                   /|
-                                 | o feat/add_stylesheet
-                                 | |
+                                 / |
+                                /  |
+                               |   o
+                               |   |
+                               |   o
+                               |  /|
+                         main  o | o feat/add_stylesheet
+                                \| |
 hotfix/add_footer_copy, main     o o
                                 /| |
                                o | o
